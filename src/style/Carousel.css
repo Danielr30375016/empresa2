@@ -1,0 +1,53 @@
+.container_carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.imagen_carousel{
+    width: 70%;
+    max-width: 800px;
+    transition: 2s;
+    opacity: 0;
+
+}
+
+.imagen_carousel_1{
+    width: 70%;
+    max-width: 800px;
+    transition: 2s;
+    opacity: 0.5;
+    animation: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.container_carousel_1{
+    display: flex;
+    justify-content: center;
+}
+
+.boton_izquierda{
+    justify-content: left;
+    color: #fff;
+    width: 30px;
+}
+.boton_derecha{
+    justify-content: right;
+    color: #fff;
+    width: 30px;
+}

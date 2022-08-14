@@ -1,0 +1,82 @@
+.container_pie_de_pagina{
+    width: 100%;
+    background-color: #131212;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacto, .direccion{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #131212;
+}
+
+.contacto h3, .direccion h4{
+    width: 100%;
+    background-color: #131212;
+    color: #fff;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+.contacto li, .direccion li{
+    padding: 5px;
+    list-style: none;
+    background-color: #131212;
+    color: #fff;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.direccion_logo{
+    background-color: #131212;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.informacion{
+    background-color: #131212;
+}
+
+.icono_pie_de_pagina{
+    color: #fff;
+    background-color: #131212;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .contacto h3, .direccion h4{
+        font-size: 2vw;
+    }
+
+    .contacto li, .direccion li{
+        font-size: 1.7vw;
+    }
+  }
+
+@media only screen and (max-width: 780px) {
+    .contacto h3, .direccion h4{
+        font-size: 2.3vw;
+    }
+
+    .contacto li, .direccion li{
+        font-size: 2vw;
+    }
+  }
+
+
+
+

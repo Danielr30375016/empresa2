@@ -1,0 +1,83 @@
+.container_cabezar{
+    width: 100%;
+    background-image: linear-gradient(
+        135deg, #EFB810, #2f2f53c7);
+    animation: fanimado 5s infinite;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 2px 0px rgba(255, 255, 255, 0.753);
+    position: relative;
+}
+
+.cabezera_icono{
+    display: flex;
+    justify-content: left;
+}
+
+.logo{
+    background-color: transparent;
+    animation: fanimado 5s infinite;
+    margin: 10px;
+    width: 10%;
+}
+
+.cabezera_texto{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.cabezera_texto .texto, .ingresar, .registrarse{
+    background-color: transparent;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.cabezera_texto .texto:hover, .ingresar:hover, .registrarse:hover{
+    background-color: #131212;
+    padding: 5px 20px 5px 20px;
+    color: #fff;
+    transition: 500ms;
+    font-weight: bold;
+}
+
+.cabezera_login{
+    background-color: #131212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes fanimado {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .cabezera_texto .texto, .ingresar, .registrarse{
+        font-size: 2vw;
+    }
+  }
+  
+  @media only screen and (max-width: 780px) {
+    .cabezera_texto .texto, .ingresar, .registrarse{
+        font-size: 3vw;
+    }
+  }
